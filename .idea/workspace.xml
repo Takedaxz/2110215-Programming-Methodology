@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MyCasino:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8413541-3654-4db1-88f6-2951ed1f3766" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2b48ZjWdX2t4DPS0QaSICOHfc8l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Algebra.executor": "Run",
+    "Application.Application.executor": "Run",
+    "Application.Bike1.executor": "Run",
+    "Application.CPShop.executor": "Run",
+    "Application.ClassCreation.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainWindow.executor": "Run",
+    "Application.MyCasino.executor": "Run",
+    "Application.MyProgram.executor": "Run",
+    "Application.MySchool.executor": "Run",
+    "Application.MySchool2.executor": "Run",
+    "Application.MySchool3.executor": "Run",
+    "Application.SimpleDiceTest1.executor": "Run",
+    "Application.TestAbstract.executor": "Run",
+    "Application.Welcome.executor": "Run",
+    "Application.WelcomeWithHandler.executor": "Run",
+    "Application.application.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.AttackTest.executor": "Run",
+    "JUnit.BaseProductTest.executor": "Run",
+    "JUnit.BuildingTest.executor": "Run",
+    "JUnit.CPShopTest.executor": "Run",
+    "JUnit.CourseTest.executor": "Run",
+    "JUnit.CourseTest.testEquals.executor": "Run",
+    "JUnit.CourseTest.testSetId.executor": "Run",
+    "JUnit.DatabaseTest.executor": "Run",
+    "JUnit.EmployeeTest.executor": "Run",
+    "JUnit.EnterProfileTest.executor": "Run",
+    "JUnit.FighterTest.executor": "Run",
+    "JUnit.FreeDiscountProductTest.executor": "Run",
+    "JUnit.GameManagerTest.executor": "Run",
+    "JUnit.GameSystemTest.executor": "Run",
+    "JUnit.GuildmasterTest.executor": "Run",
+    "JUnit.ItemTest.executor": "Run",
+    "JUnit.JanitorTest.executor": "Run",
+    "JUnit.NormalRockTest.executor": "Run",
+    "JUnit.OfficeWorkerTest.executor": "Run",
+    "JUnit.OrderItemTest.executor": "Run",
+    "JUnit.OrderTest.executor": "Run",
+    "JUnit.PercentDiscountProductTest.executor": "Run",
+    "JUnit.PersonTest.executor": "Run",
+    "JUnit.PoisonRockTest.executor": "Run",
+    "JUnit.TankTest.executor": "Run",
+    "JUnit.TestMageCard.executor": "Run",
+    "JUnit.TestOrbCard.executor": "Run",
+    "JUnit.TestRobotCard.executor": "Run",
+    "JUnit.WizardTest.executor": "Run",
+    "JUnit.test.grader in Mid_2020_Q2.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "20",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/pookansmacbookpro/IdeaProjects/LectureFromProgMeth",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/pookansmacbookpro/IdeaProjects/LectureFromProgMeth/Exam2_2020_1/src/app/Main.java",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Exam2_2019_3/src" />
+      <recent name="$PROJECT_DIR$/Exam2_2020_3/src" />
+      <recent name="$PROJECT_DIR$/Exam2_2020_2/src" />
+      <recent name="$PROJECT_DIR$/Exam2_2019_2/src" />
+      <recent name="$PROJECT_DIR$/Mid_2020_Q3/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.main">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="Lecture05_1" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.graphics,javafx.base,javafx.fxml,javafx.media,javafx.swing,javafx.web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Exam2_2020_2" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Exam2_2019_2" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainWindow" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainWindow" />
+      <module name="Lecture05_1" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.graphics,javafx.base,javafx.fxml,javafx.media,javafx.swing,javafx.web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Welcome" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Welcome" />
+      <module name="Lecture05_1" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.graphics,javafx.base,javafx.fxml,javafx.media,javafx.swing,javafx.web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WelcomeWithHandler" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WelcomeWithHandler" />
+      <module name="Lecture05_1" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.graphics,javafx.base,javafx.fxml,javafx.media,javafx.swing,javafx.web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="application.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="Exam2_2020_3" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.main" />
+      <module name="Exam2_2019_3" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lecture03_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CourseTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseTest.testSetId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lecture03_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CourseTest" />
+      <option name="METHOD_NAME" value="testSetId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.grader in Mid_2020_Q2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mid_2020_Q2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.grader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.grader" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CourseTest.testEquals" />
+        <item itemvalue="JUnit.CourseTest.testSetId" />
+        <item itemvalue="JUnit.test.grader in Mid_2020_Q2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-azul-20.0.2-4caba194b151-895bf479" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8413541-3654-4db1-88f6-2951ed1f3766" name="Changes" comment="" />
+      <created>1705463048881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705463048881</updated>
+      <workItem from="1705463049947" duration="2018000" />
+      <workItem from="1705466952791" duration="614000" />
+      <workItem from="1705471793690" duration="3000" />
+      <workItem from="1705645547059" duration="416000" />
+      <workItem from="1705741722599" duration="676000" />
+      <workItem from="1705742432589" duration="3540000" />
+      <workItem from="1705759604532" duration="3583000" />
+      <workItem from="1705829015760" duration="3085000" />
+      <workItem from="1705848154021" duration="783000" />
+      <workItem from="1705848973194" duration="6514000" />
+      <workItem from="1705891373652" duration="5521000" />
+      <workItem from="1705897960243" duration="22000" />
+      <workItem from="1705898520483" duration="781000" />
+      <workItem from="1706063697975" duration="1726000" />
+      <workItem from="1706065824094" duration="1302000" />
+      <workItem from="1706067827518" duration="3017000" />
+      <workItem from="1707028089797" duration="5942000" />
+      <workItem from="1707039971839" duration="2405000" />
+      <workItem from="1707042482682" duration="415000" />
+      <workItem from="1707042945171" duration="37000" />
+      <workItem from="1707066894644" duration="2653000" />
+      <workItem from="1707069717148" duration="121000" />
+      <workItem from="1707304227953" duration="200000" />
+      <workItem from="1707364925147" duration="36000" />
+      <workItem from="1707374628536" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exam2_2019_1/Exam2_2019_1.iml" filepath="$PROJECT_DIR$/Exam2_2019_1/Exam2_2019_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam2_2019_2/Exam2_2019_2.iml" filepath="$PROJECT_DIR$/Exam2_2019_2/Exam2_2019_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam2_2019_3/Exam2_2019_3.iml" filepath="$PROJECT_DIR$/Exam2_2019_3/Exam2_2019_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam2_2020_1/Exam2_2020_1.iml" filepath="$PROJECT_DIR$/Exam2_2020_1/Exam2_2020_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam2_2020_2/Exam2_2020_2.iml" filepath="$PROJECT_DIR$/Exam2_2020_2/Exam2_2020_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam2_2020_3/Exam2_2020_3.iml" filepath="$PROJECT_DIR$/Exam2_2020_3/Exam2_2020_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture02_1/Lecture02_1.iml" filepath="$PROJECT_DIR$/Lecture02_1/Lecture02_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture02_2/Lecture02_2.iml" filepath="$PROJECT_DIR$/Lecture02_2/Lecture02_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture03_1/Lecture03_1.iml" filepath="$PROJECT_DIR$/Lecture03_1/Lecture03_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture03_2/Lecture03_2.iml" filepath="$PROJECT_DIR$/Lecture03_2/Lecture03_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture05_1/Lecture05_1.iml" filepath="$PROJECT_DIR$/Lecture05_1/Lecture05_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture06_1/Lecture06_1.iml" filepath="$PROJECT_DIR$/Lecture06_1/Lecture06_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LectureFromProgMeth.iml" filepath="$PROJECT_DIR$/LectureFromProgMeth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mid_2019_Q1/Mid_2019_Q1.iml" filepath="$PROJECT_DIR$/Mid_2019_Q1/Mid_2019_Q1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mid_2019_Q2/Mid_2019_Q2.iml" filepath="$PROJECT_DIR$/Mid_2019_Q2/Mid_2019_Q2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mid_2019_Q3/Mid_2019_Q3.iml" filepath="$PROJECT_DIR$/Mid_2019_Q3/Mid_2019_Q3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mid_2020_Q1/Mid_2020_Q1.iml" filepath="$PROJECT_DIR$/Mid_2020_Q1/Mid_2020_Q1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mid_2020_Q2/Mid_2020_Q2.iml" filepath="$PROJECT_DIR$/Mid_2020_Q2/Mid_2020_Q2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mid_2020_Q3/Mid_2020_Q3.iml" filepath="$PROJECT_DIR$/Mid_2020_Q3/Mid_2020_Q3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mid_2021_Q3/Mid_2021_Q3.iml" filepath="$PROJECT_DIR$/Mid_2021_Q3/Mid_2021_Q3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mid_2019_Q1/application/application.iml" filepath="$PROJECT_DIR$/Mid_2019_Q1/application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mid_2019_Q1/logic/logic.iml" filepath="$PROJECT_DIR$/Mid_2019_Q1/logic/logic.iml" />
+    </modules>
+  </component>
+</project>

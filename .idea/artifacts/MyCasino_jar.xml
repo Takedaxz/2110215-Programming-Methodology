@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyCasino:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyCasino_jar</output-path>
+    <root id="archive" name="LectureFromProgMeth.jar">
+      <element id="module-output" name="LectureFromProgMeth" />
+      <element id="module-output" name="Lecture02_1" />
+    </root>
+  </artifact>
+</component>
