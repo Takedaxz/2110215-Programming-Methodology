@@ -1,0 +1,125 @@
+@startuml
+class logic.components.Ore {
+- String name
+- int cost
++ String getName()
++ void setName(String)
++ int getCost()
++ boolean equals(Object)
++ void setCost(int)
+}
+class logic.components.Player {
+- String name
+- Status status
+- int energy
+- int money
+- ArrayList<Food> foods
+- ArrayList<Potion> potions
+- ArrayList<Ore> ores
++ boolean buyOre(Ore)
++ void drinkPotion(int)
++ void eatFood(int)
++ void sellPotion(int)
++ void sellFood(int)
++ void attack(Monster)
++ void magicAttack(Monster)
++ String getName()
++ void setName(String)
++ Status getStatus()
++ void setStatus(Status)
++ int getEnergy()
++ void setEnergy(int)
++ int getMoney()
++ void setMoney(int)
++ ArrayList<Food> getFoods()
++ void setFoods(ArrayList<Food>)
++ ArrayList<Potion> getPotions()
++ void setPotions(ArrayList<Potion>)
++ ArrayList<Ore> getOres()
++ void setOres(ArrayList<Ore>)
+}
+class logic.components.Market {
+- String name
+- ArrayList<Food> foods
+- ArrayList<Potion> potions
++ String getName()
++ void setName(String)
++ ArrayList<Food> getFoods()
++ void setFoods(ArrayList<Food>)
++ ArrayList<Potion> getPotions()
++ void setPotions(ArrayList<Potion>)
+}
+class logic.components.Potion {
+- String name
+- int price
+- Status increasingStatus
++ String getName()
++ void setName(String)
++ int getPrice()
++ void setPrice(int)
++ Status getIncreasingStatus()
++ void setIncreasingStatus(Status)
++ boolean equals(Object)
+}
+class logic.game.GameController {
++ ArrayList<Market> markets
++ ArrayList<Player> players
++ ArrayList<Monster> monsters
++ ArrayList<Ore> ores
++ {static} GameController instance
++ boolean gameEnd
++ {static} GameController getInstance()
++ void addMarket(Market)
++ void addMonster(Monster)
++ void addPlayer(Player)
++ void endDay()
++ void removeDeadPlayerAndMonster()
++ boolean buyOre(int,int)
++ boolean checkGameEnd()
++ {static} Status createNewStatus(int,int,int,int)
+}
+class logic.components.Status {
+- int hp
+- int durability
+- int attack
+- int magic
++ void setHp(int)
++ void setDurability(int)
++ void setAttack(int)
++ void setMagic(int)
++ int getHp()
++ int getAttack()
++ int getDurability()
++ int getMagic()
++ void addStatus(Status)
++ boolean equals(Object)
+}
+class logic.components.Food {
+- String name
+- int price
+- int energy
++ boolean equals(Object)
++ String getName()
++ int getPrice()
++ int getEnergy()
++ void setName(String)
++ void setPrice(int)
++ void setEnergy(int)
+}
+class logic.components.Monster {
+- String name
+- Status status
+- Food food
+- Potion potion
++ void attack(Player)
++ void magicAttack(Player)
++ String getName()
++ void setName(String)
++ Status getStatus()
++ void setStatus(Status)
++ Food getFood()
++ void setFood(Food)
++ Potion getPotion()
++ void setPotion(Potion)
+}
+@enduml

@@ -1,0 +1,64 @@
+@startuml
+class monkey.MuscleMonkey {
+- int POWER_UP
++ void attack(BaseMonkey)
++ void buff()
+}
+class logic.game.GameSystem {
+- ArrayList<BaseMonkey> monkeyContainer
+- ArrayList<BaseMonkey> apeContainer
+- int gameState
+- int sp
+- boolean gameEnd
+- {static} GameSystem instance
++ {static} GameSystem getInstance()
++ void addMonkey()
++ void addApe()
++ ArrayList<BaseMonkey> getMonkeyContainer()
++ boolean isGameEnd()
++ void setGameEnd(boolean)
++ ArrayList<BaseMonkey> getApeContainer()
++ void printMonkeyStatus()
++ void removeDeadEntity(ArrayList<BaseMonkey>)
++ void showDeadMessage(BaseMonkey,int)
++ int getSp()
++ void setSp(int)
+}
+class monkey.MommyMonkey {
++ void attack(BaseMonkey)
++ void birth()
+}
+class monkey.Ape {
++ void attack(BaseMonkey)
++ void attackAOE()
+}
+class monkey.BaseMonkey {
+- int maxHp
+- int hp
+- int atk
+- int def
++ void attack(BaseMonkey)
++ String getType()
++ String toString()
++ int getMaxHp()
++ void setMaxHp(int)
++ int getHp()
++ void setHp(int)
++ int getAtk()
++ void setAtk(int)
++ int getDef()
++ void setDef(int)
+}
+class monkey.UgabugagaMonkey {
+- int DEBUFF
+- int HEAL
++ void attack(BaseMonkey)
++ void heal(BaseMonkey)
+}
+
+
+monkey.BaseMonkey <|-- monkey.MuscleMonkey
+monkey.BaseMonkey <|-- monkey.MommyMonkey
+monkey.BaseMonkey <|-- monkey.Ape
+monkey.BaseMonkey <|-- monkey.UgabugagaMonkey
+@enduml
