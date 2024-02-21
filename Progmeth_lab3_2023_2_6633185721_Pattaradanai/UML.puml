@@ -1,0 +1,179 @@
+@startuml
+abstract class logic.ghost.LowGhost {
++ <<Create>> LowGhost()
++ int getLevel()
+}
+class logic.item.Leklai {
++ <<Create>> Leklai()
++ int getLevel()
++ void effect()
++ String toString()
+}
+class logic.actor.Monkey {
++ <<Create>> Monkey()
++ int getLevel()
++ void attack()
++ String toString()
+}
+class logic.game.GameController {
+- int hp
+- int score
+- {static} GameController instance
+- ArrayList<Actor> actors
+- ArrayList<Ghost> ghosts
+- ArrayList<Item> items
++ <<Create>> GameController()
+- void initGame()
++ void play(Actor)
++ boolean isGameOver()
++ {static} GameController getInstance()
++ void updateGameController()
++ int getHp()
++ void setHp(int)
++ int getScore()
++ ArrayList<Ghost> getGhosts()
++ ArrayList<Actor> getActors()
++ ArrayList<Item> getItems()
++ void setScore(int)
++ void addNewActor(Actor)
++ void addNewItem(Item)
++ void addNewGhost(Ghost)
+}
+class logic.ghost.PryGhost {
+- int power
+- int ppt
++ <<Create>> PryGhost()
++ <<Create>> PryGhost(int)
++ <<Create>> PryGhost(int,int)
++ String toString()
++ void attack()
++ int getPower()
++ void setPower(int)
++ int getPpt()
++ void setPpt(int)
+}
+class logic.actor.Monk {
++ <<Create>> Monk()
++ int getLevel()
++ void attack()
++ String toString()
+}
+class logic.item.Banana {
++ <<Create>> Banana()
++ int getLevel()
++ void effect()
++ String toString()
+}
+abstract class logic.ghost.HighGhost {
++ <<Create>> HighGhost()
++ {abstract}void damage()
+}
+class logic.ghost.PooYaGhost {
+- int power
++ <<Create>> PooYaGhost(int)
++ int getPower()
++ void setPower(int)
++ int getLevel()
++ String toString()
++ void attack()
++ void damage()
+}
+class application.Main {
+- {static} Scanner sc
++ {static} void main(String[])
+}
+class logic.item.Amulet {
++ <<Create>> Amulet()
++ int getLevel()
++ void effect()
++ String toString()
+}
+class logic.actor.GhostDoctor {
++ <<Create>> GhostDoctor()
++ int getLevel()
++ void attack()
++ String toString()
+}
+class logic.game.GameIO {
+- {static} Scanner sc
++ {static} Actor selectActor(ArrayList<Actor>)
++ {static} void showItemList(ArrayList<Item>)
++ {static} void showCurrentGhost(ArrayList<Ghost>)
++ {static} void showGameState()
++ {static} void buyNewActor()
++ {static} void buyNewItem()
+}
+class logic.actor.Villager {
++ <<Create>> Villager()
++ int getLevel()
++ void attack()
++ String toString()
+}
+abstract class logic.ghost.Ghost {
+- int hp
++ <<Create>> Ghost(int)
++ int getHp()
++ void setHp(int)
++ boolean isDestroyed()
++ void decreaseHp(int)
++ {abstract}int getLevel()
++ {abstract}void attack()
+}
+class logic.ghost.GaGhost {
+- int energy
++ <<Create>> GaGhost()
++ <<Create>> GaGhost(int)
++ int getEnergy()
++ void setEnergy(int)
++ String toString()
++ void attack()
+}
+class logic.ghost.PongGhost {
+- int power
++ <<Create>> PongGhost()
++ <<Create>> PongGhost(int)
++ int getPower()
++ void setPower(int)
++ int getLevel()
++ String toString()
++ void attack()
++ void damage()
+}
+class logic.ghost.MaBongGhost {
+- int power
+- int speed
++ <<Create>> MaBongGhost()
++ <<Create>> MaBongGhost(int)
++ <<Create>> MaBongGhost(int,int)
++ int getPower()
++ void setPower(int)
++ int getSpeed()
++ void setSpeed(int)
++ String toString()
++ void attack()
+}
+abstract class logic.actor.Actor {
++ {abstract}int getLevel()
++ {abstract}void attack()
+}
+abstract class logic.item.Item {
++ {abstract}int getLevel()
++ {abstract}void effect()
+}
+
+
+logic.ghost.Ghost <|-- logic.ghost.LowGhost
+logic.item.Item <|-- logic.item.Leklai
+logic.actor.Actor <|-- logic.actor.Monkey
+logic.ghost.LowGhost <|-- logic.ghost.PryGhost
+logic.actor.Actor <|-- logic.actor.Monk
+logic.item.Item <|-- logic.item.Banana
+logic.ghost.Ghost <|-- logic.ghost.HighGhost
+logic.ghost.HighGhost <|-- logic.ghost.PooYaGhost
+logic.item.Item <|-- logic.item.Amulet
+logic.actor.Actor <|-- logic.actor.GhostDoctor
+logic.actor.Actor <|-- logic.actor.Villager
+logic.ghost.LowGhost <|-- logic.ghost.GaGhost
+logic.ghost.HighGhost <|-- logic.ghost.PongGhost
+logic.ghost.LowGhost <|-- logic.ghost.MaBongGhost
+@enduml
