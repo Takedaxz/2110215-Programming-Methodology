@@ -28,6 +28,8 @@ class GaGhostTest {
     @Test
     void testIsDestroyedFalse() {
     	// TODO: Fill your code
+        gaGhost.decreaseHp(1);
+        assertFalse(gaGhost.isDestroyed());
     }
 
     @Test

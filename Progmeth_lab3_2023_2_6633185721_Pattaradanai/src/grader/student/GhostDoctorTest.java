@@ -38,6 +38,10 @@ class GhostDoctorTest {
     @Test
     void testAttackHighGhost() {
     	// TODO: Fill your code
+        GameController.getInstance().getGhosts().clear();
+        GameController.getInstance().getGhosts().add(new PooYaGhost(10));
+        ghostDoctor.attack();
+        assertEquals(10,GameController.getInstance().getGhosts().get(0).getHp());
     }
 
     @Test

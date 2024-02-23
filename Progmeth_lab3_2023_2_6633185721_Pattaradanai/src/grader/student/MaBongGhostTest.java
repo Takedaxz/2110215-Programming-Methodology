@@ -23,6 +23,14 @@ class MaBongGhostTest {
     @Test
     void testConstructor() {
     	// TODO: Fill your code
+        assertEquals(4, maBongGhost.getPower());
+        assertEquals(1, maBongGhost.getSpeed());
+        MaBongGhost check1 = new MaBongGhost(10);
+        MaBongGhost check2 = new MaBongGhost(10, 20);
+        assertEquals(10, check1.getPower());
+        assertEquals(1, check1.getSpeed());
+        assertEquals(10, check2.getPower());
+        assertEquals(20, check2.getSpeed());
     }
     
     @Test
@@ -50,6 +58,8 @@ class MaBongGhostTest {
     @Test
     void testDecreaseHpBelowZero() {
     	// TODO: Fill your code
+        maBongGhost.decreaseHp(100);
+        assertEquals(0, maBongGhost.getHp());
     }
 
     @Test

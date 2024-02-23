@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import logic.ghost.*;
 import logic.game.GameController;
 import logic.ghost.GaGhost;
 import logic.ghost.PooYaGhost;
@@ -68,6 +69,14 @@ class PooYaGhostTest {
     @Test
     void testDamage() {
     	// TODO: Fill your code
+        GameController.getInstance().getGhosts().clear();
+        GameController.getInstance().getGhosts().add(new MaBongGhost());
+        GameController.getInstance().getGhosts().add(new PongGhost());
+        GameController.getInstance().getGhosts().add(new PryGhost());
+        pooYaGhost.damage();
+        assertEquals(5,GameController.getInstance().getGhosts().get(0).getHp());
+        assertEquals(12,GameController.getInstance().getGhosts().get(1).getHp());
+        assertEquals(5,GameController.getInstance().getGhosts().get(2).getHp());
     }
 
 }

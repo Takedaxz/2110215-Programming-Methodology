@@ -27,6 +27,9 @@ class PongGhostTest {
     @Test
     void testConstructor() {
     	// TODO: Fill your code
+        assertEquals(1,pongGhost.getPower());
+        PongGhost check = new PongGhost(10);
+        assertEquals(10,check.getPower());
     }
     
     @Test
